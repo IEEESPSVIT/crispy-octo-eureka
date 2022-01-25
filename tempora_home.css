@@ -75,7 +75,7 @@ body{
 #temporatitle{
     margin-top: 5%;
     width: 30%;
-    margin-left: 20%
+    margin-left: 20vw;
  
 }
 
@@ -86,6 +86,63 @@ body{
     font-size: 175%;
     color: rgb(13, 202, 92);
 }
+
+
+
+
+#reg1 {
+  
+  margin-left: 25vw;
+  padding: 1.3em 3em;
+  font-size: 50%;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+ 
+#reg1:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+  transition: 0.3s;
+}
+
+#sub1 {
+  margin-left:2%;
+  padding: 1.3em 3em;
+  font-size: 50%;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+ 
+#sub1:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+  transition: 0.3s;
+}
+
 
 .themes{
     text-align: center;
@@ -537,15 +594,33 @@ body {
   color: white;
 }
 
-@media screen and (max-width: 900px) {
-  .toplinks{
-      display: none;
+
+@media screen and (min-width: 900px) {
+  
+
+  .midlinks{
+    display: none;
   }
   
 }
 
 
-@media screen and (min-width: 930px){
+
+
+
+@media screen and (max-width: 900px) {
+  .toplinks{
+      display: none;
+  }
+
+  .midlinks{
+    display: inline-block;
+  }
+  
+}
+
+
+@media screen and (min-width: 930px) and (max-width: 1300px) {
   #reg{
      margin-left: 30%;
   }
@@ -558,4 +633,89 @@ body {
      margin-left: 25%;
   }
  
+}
+
+@media screen and (min-width:900px) and (max-width: 1200px) {
+  
+  #temporatitle{
+    padding-top: 7%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+  }
+  
+}
+
+@media screen and (max-width: 900px) {
+  
+  #temporatitle{
+    padding-top: 7%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+  }
+  
+}
+
+@media screen and (max-width: 900px) {
+  
+  .logo{
+    margin-left: 20vw;
+    height: 15vw;
+    width: 15vw;
+  }
+
+  
+}
+
+
+@media screen and (max-width: 700px) {
+  
+  #temporatext{
+    font-size: 120%;
+  }
+
+  .instructionsText{
+    margin-left: 8%;
+  }
+  
+  .instext{
+    font-size: 120%;
+  }
+
+  .details{
+    font-size: 100%;
+    margin-left: 4%;
+  }
+  
+
+  #reg2{
+    margin-left: 25vw;
+
+    font-size: 50%;
+  }
+
+  #sub2{
+    font-size: 50%;
+  }
+  
+
+  .footertext{
+    font-size: 80%;
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 1000px) {
+  
+  .flextext{
+    font-size: 80%;
+  }
+
+  
 }
