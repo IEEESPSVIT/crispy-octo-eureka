@@ -759,3 +759,12 @@ body {
 .form-control1.error small {
 	visibility: visible;
 }
+#team input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}

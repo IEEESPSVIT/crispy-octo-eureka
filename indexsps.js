@@ -1,3 +1,4 @@
+
 const form = document.getElementById("form") ;
 const nam = document.getElementById("nam") ;
 const regno = document.getElementById("regno") ;
